@@ -1,16 +1,13 @@
 # tivit_test
 
-A new Flutter project.
+Teste realizado aplicando conceitos de SOLID e Clean Arch.
 
-## Getting Started
+## Configuração
 
-This project is a starting point for a Flutter application.
+Este projeto consome uma API Rest através do JSON-SERVER
 
-A few resources to get you started if this is your first Flutter project:
+Os arquivos de db e rotas estão na pasta assets. O comando para execução da API é:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+json-server --watch db.json --routes route.json
+```
