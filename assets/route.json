@@ -1,0 +1,8 @@
+{
+  "/clientes/:clienteId/enderecos":"/enderecos?clienteId=:clienteId",
+  "/clientes/:clienteId/enderecos/:enderecoId":"/enderecos?clienteId=:clienteId&id=:enderecoId",
+  "/clientes_endereco":"/clientes?_embed=enderecos"
+}
+
+
+

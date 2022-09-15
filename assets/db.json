@@ -1,0 +1,72 @@
+{
+  "clientes": [
+    {
+      "nome": "Fernanda Faria Mendes Lopes",
+      "dataNascimento": "1993-09-08T00:00:00.000Z",
+      "telefone": "5564984514521",
+      "email": "fernanda.faria@gmail.com",
+      "id": 2
+    },
+    {
+      "nome": "André Correia Silva",
+      "dataNascimento": "1980-03-03T00:00:00.000Z",
+      "telefone": "5514985416521",
+      "email": "andre.correia@gmail.com",
+      "id": 3
+    },
+    {
+      "nome": "Amanda Mendes da Silva",
+      "dataNascimento": "1986-09-11T00:00:00.000Z",
+      "email": "amanda.mendes@gmail.com",
+      "telefone": "5541984652145",
+      "id": 4
+    }
+  ],
+  "enderecos": [
+    {
+      "id": 4,
+      "nomeLocal": "Apartamento",
+      "logradouro": "Rua 14 de março, Apto. 206",
+      "numero": "300",
+      "possuiNumero": true,
+      "bairro": "Jardim Novo",
+      "clienteId": 3
+    },
+    {
+      "nomeLocal": "Trabalho",
+      "logradouro": "Avenida Presidente Prudente",
+      "numero": "197",
+      "possuiNumero": true,
+      "bairro": "Bigorrilho",
+      "clienteId": 3,
+      "id": 5
+    },
+    {
+      "nomeLocal": "Casa",
+      "logradouro": "Rua Presidente Faria",
+      "numero": "585",
+      "possuiNumero": true,
+      "bairro": "Centro",
+      "clienteId": 4,
+      "id": 6
+    },
+    {
+      "nomeLocal": "Trabalho",
+      "logradouro": "Rua Praça Sao Paulo da Cruz",
+      "numero": "341",
+      "possuiNumero": true,
+      "bairro": "Juvevê",
+      "clienteId": 4,
+      "id": 7
+    },
+    {
+      "nomeLocal": "Apartamento",
+      "logradouro": "Rua Marechal Deodoro",
+      "numero": "841",
+      "possuiNumero": true,
+      "bairro": "Centro",
+      "clienteId": 2,
+      "id": 8
+    }
+  ]
+}
