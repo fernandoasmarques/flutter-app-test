@@ -1,4 +1,4 @@
-# tivit_test
+# flutter_app_test
 
 Teste realizado aplicando conceitos de SOLID e Clean Arch.
 
